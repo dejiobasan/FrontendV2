@@ -86,7 +86,10 @@ const HeroSection = () => {
           <button className="px-8 py-3.5 md:py-4 rounded-full bg-[#36363A] text-white hover:text-[#36363A] hover:bg-white text-sm md:text-base font-medium hover:scale-105 transition-all duration-300 hover:border hover:border-[#36363A]">
             Contact
           </button>
-          <button className="px-8 py-3.5 md:py-4 rounded-full border border-[#36363A] text-[#36363A] text-sm md:text-base font-medium hover:bg-[#36363A] hover:text-white hover:scale-105 transition-all duration-300">
+          <button 
+            onClick={() => document.getElementById("featured")?.scrollIntoView({ behavior: "smooth" })}
+            className="px-8 py-3.5 md:py-4 rounded-full border border-[#36363A] text-[#36363A] text-sm md:text-base font-medium hover:bg-[#36363A] hover:text-white hover:scale-105 transition-all duration-300"
+          >
             View My Projects
           </button>
         </motion.div>
