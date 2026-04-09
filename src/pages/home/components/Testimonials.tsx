@@ -4,7 +4,7 @@ import { Gospel, Kola, Cosmas, Temi, Tobi, Jide } from "@/assets";
 const testimonials = [
   {
     name: "Gospel Chinyereugo",
-    role: "ALAT, Senior Software Engineer",
+    role: "ALAT, Senior Software Engineer and Web Community Manager",
     image: Gospel,
     testimonial:
       "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
