@@ -85,7 +85,7 @@ const Testimonials = () => {
         </motion.div>
 
         <motion.div
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-6 md:gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-6 gap-6 md:gap-8"
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
@@ -96,7 +96,7 @@ const Testimonials = () => {
               key={index}
               variants={cardVariants}
               whileHover={{ y: -5, transition: { duration: 0.2 } }}
-              className={`bg-white dark:bg-[#1E1E20] rounded-2xl md:w-[420px] p-8 border border-gray-100 dark:border-gray-800 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)] flex flex-col gap-6 cursor-default lg:col-span-2`}
+              className={`bg-white dark:bg-[#1E1E20] rounded-2xl w-full xl:w-[420px] p-8 border border-gray-100 dark:border-gray-800 shadow-[0_2px_10px_-4px_rgba(0,0,0,0.05)] flex flex-col gap-6 cursor-default xl:col-span-2`}
             >
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 flex items-center justify-center shrink-0 overflow-hidden">
