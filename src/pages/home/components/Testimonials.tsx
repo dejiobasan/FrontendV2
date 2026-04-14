@@ -2,48 +2,48 @@ import { motion, type Variants } from "framer-motion";
 import { Gospel, Kola, Cosmas, Temi, Tobi, Jide } from "@/assets";
 
 const testimonials = [
-  {
-    name: "Gospel Chinyereugo",
-    role: "ALAT, Senior Software Engineer and Web Community Manager",
-    image: Gospel,
-    testimonial:
-      "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
-  },
+  // {
+  //   name: "Gospel Chinyereugo",
+  //   role: "ALAT, Senior Software Engineer and Web Community Manager",
+  //   image: Gospel,
+  //   testimonial:
+  //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
+  // },
   {
     name: "Olajide Obasan",
     role: "Lead Software Engineer, VolvLabs",
     image: Jide,
     testimonial:
-      "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
+      "Deji is an exceptional engineer who consistently delivers scalable, well-structured solutions. His depth in full-stack development makes him a valuable asset to any team.",
   },
   {
     name: "Oluwatobi Olajide",
     role: "ALAT, Software Engineer",
     image: Tobi,
     testimonial:
-      "Deji is a smart engineer, Working with him is a great experience. He's incredibly sharp with building systems and still manages to make everything feel simple and easy to work with.",
+      "Deji is a smart engineer. Working with him is a great experience. He's incredibly sharp with building systems and still manages to make everything feel simple and easy to work with.",
   },
-  {
-    name: "Cosmas Ezejiofor",
-    role: "ALAT, Software Engineer",
-    image: Cosmas,
-    testimonial:
-      "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
-  },
-  {
-    name: "Temitope Ogundipe",
-    role: "ALAT, Senior UI/UX Designer",
-    image: Temi,
-    testimonial:
-      "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
-  },
-  {
-    name: "Kolawole Ayoola",
-    role: "Software Engineer, Moniepoint Group",
-    image: Kola,
-    testimonial:
-      "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
-  },
+  // {
+  //   name: "Cosmas Ezejiofor",
+  //   role: "ALAT, Software Engineer",
+  //   image: Cosmas,
+  //   testimonial:
+  //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
+  // },
+  // {
+  //   name: "Temitope Ogundipe",
+  //   role: "ALAT, Senior UI/UX Designer",
+  //   image: Temi,
+  //   testimonial:
+  //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
+  // },
+  // {
+  //   name: "Kolawole Ayoola",
+  //   role: "Software Engineer, Moniepoint Group",
+  //   image: Kola,
+  //   testimonial:
+  //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
+  // },
 ];
 
 const containerVariants: Variants = {
@@ -100,7 +100,11 @@ const Testimonials = () => {
             >
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-gray-50 dark:bg-gray-800 border border-gray-100 dark:border-gray-700 flex items-center justify-center shrink-0 overflow-hidden">
-                  <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                  <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-gray-100 text-lg">
