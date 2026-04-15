@@ -1,5 +1,5 @@
 import { motion, type Variants } from "framer-motion";
-import { Tobi, Jide } from "@/assets";
+import { Tobi, Jide, Kola } from "@/assets";
 
 const testimonials = [
   // {
@@ -37,13 +37,13 @@ const testimonials = [
   //   testimonial:
   //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
   // },
-  // {
-  //   name: "Kolawole Ayoola",
-  //   role: "Software Engineer, Moniepoint Group",
-  //   image: Kola,
-  //   testimonial:
-  //     "Quis neque, eu et ipsum amet, vel et. Varius integer enim pellentesque ornare pharetra faucibs arcu. Mauris blandit egestas nibh.",
-  // },
+  {
+    name: "Kolawole Ayoola",
+    role: "Software Engineer, Moniepoint Group",
+    image: Kola,
+    testimonial:
+      "Deji is a great colleague to work with, reliable, and deeply committed to delivering high-quality results. His work is always top-notch. Beyond his technical skills, he's a team player who communicates clearly, and is always willing to support others when needed. Any team would be fortunate to have him.",
+  },
 ];
 
 const containerVariants: Variants = {
