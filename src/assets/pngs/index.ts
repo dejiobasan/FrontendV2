@@ -7,5 +7,6 @@ import SARA from "./Sara.png";
 import SheCan from "./Shecan.png";
 import Afb from "./Afb.png";
 import Vector from "./Vector.png";
+import Alat from "./alat.png";
 
-export { HeZa, FraudShield, CoopHub, MRTB, PFT, SARA, SheCan, Afb, Vector };
+export { HeZa, FraudShield, CoopHub, MRTB, PFT, SARA, SheCan, Afb, Vector, Alat };

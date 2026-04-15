@@ -3,17 +3,22 @@ import {
   HeZa,
   FraudShield,
   CoopHub,
-  MRTB,
   PFT,
   SARA,
   SheCan,
   Afb,
   Vector,
+  Alat,
 } from "@/assets";
 import { LayoutGrid, List, MoveUpRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const FeaturedData = [
+  {
+    title: "Alat - Alat By Wema",
+    image: Alat,
+    link: "https://alat.ng/",
+  },
   {
     title: "HeZa - Health Zone Africa",
     image: HeZa,
@@ -28,11 +33,6 @@ const FeaturedData = [
     title: "CoopHub - Cooperative Hub",
     image: CoopHub,
     link: "https://coophub.alat.ng/",
-  },
-  {
-    title: "MRTB Licensing Renewal Portal",
-    image: MRTB,
-    link: "https://mrtb-license-renewal-prod.azurewebsites.net/",
   },
   {
     title: "PFT - Personal Finance Tracker",
