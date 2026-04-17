@@ -4,9 +4,7 @@ import { Spinner } from "./components/ui/spinner";
 import { ThemeToggle } from "./components/ThemeToggle";
 import "./App.css";
 
-const HomePage = lazy(() =>
-  import("./pages").then((m) => ({ default: m.HomePage })),
-);
+const HomePage = lazy(() => import("./pages/home/components/HomePage"));
 
 const suspenseFallback = (
   <div className="flex h-screen w-full items-center justify-center flex-col space-y-4">
